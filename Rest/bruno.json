@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Foodie.Api | v1",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

@@ -1,0 +1,17 @@
+meta {
+  name: get -api-search-no-index
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{baseUrl}}/api/search?query=chicken&topK=5&exact=true
+  body: none
+  auth: none
+}
+
+params:query {
+  query: chicken
+  topK: 5
+  exact: true
+}

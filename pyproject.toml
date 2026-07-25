@@ -1,0 +1,15 @@
+[project]
+name = "foodie"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "datasets>=5.0.0",
+    "numpy>=2.5.1",
+    "ollama",
+    "pgvector>=0.5.0",
+    "psycopg>=3.3.4",
+    "sqlite-vec>=0.1.9",
+    "streamlit>=1.59.2",
+    "streamlit-keyup>=0.3.0",
+    "streamlit-searchbox>=0.1.24",
+]

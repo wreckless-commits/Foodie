@@ -1,0 +1,29 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.vs/
+Foodie/appsettings.Development.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+.venv/
+uv.lock
+
+# IDE - JetBrains Rider
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data / env
+.env
+*.local.*
+*.log
+*.db
